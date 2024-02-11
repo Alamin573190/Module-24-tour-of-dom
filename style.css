@@ -1,0 +1,20 @@
+h1{
+    color: coral;
+}
+ul{
+    color: rgb(235, 151, 91);
+}
+#fruits-title{
+    color: black;
+}
+.places{
+    color: rgb(55, 13, 196);
+}
+.text-center{
+    text-align: center;
+  
+}
+.large-text{
+    
+    font-size: 2em;
+}

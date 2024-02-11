@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>welcome to my DOM</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla explicabo ratione, ipsam natus facere, soluta non
+      rem ipsum libero nihil doloremque veniam impedit deleniti quia cupiditate iste maxime! Ipsam, aperiam.</p>
+  </header>
+  <main id="main-section">
+    <section>
+      <h1>welcome to my DOM</h1>
+      <ul>
+        <li>Alamin</li>
+        <li>harun</li>
+        <li>habib</li>
+        <li>Aminul</li>
+      </ul>
+    </section>
+    <section>
+      <h1 id="fruits-title">fruids name</h1>
+      <ul class="fruits-container">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>orange</li>
+      </ul>
+    </section>
+    <section id="sectionLikePlace" class="large-text">
+      <h1>place I like to visit</h1>
+      <ul id="addeded-place">
+        <li class="places">modutila</li>
+        <li class="places">gojni</li>
+        <li class="places">Baromari</li>
+        <li>nakugaw</li>
+      </ul>
+    </section>
+  </main>
+  <script src="appendPlace.js"></script>
+  <script src="dom.js"></script>
+  <!-- <script src="appendPlace.js"></script> -->
+  <script>
+    const placesss = document.getElementsByClassName('places');
+    for(const place of placesss){
+
+      // console.log(place.innerText);
+    }
+    const fruits =document.querySelectorAll('fruits-container li');
+    // console.log(fruits);
+
+
+  </script>
+
+</body>
+
+</html>
